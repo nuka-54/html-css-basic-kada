@@ -1,8 +1,4 @@
-/* div要素（id名「top」）に対する装飾
-☑️横幅を800pxにします。
-☑️背景色を「 #dcc9f4」にします。
-☑️上下に20pxの余白を入れて、画面の中央に配置します。
-☑️中にあるp要素が中央揃えになるようにします。 */
+
 #top {
   width: 800px;
   background-color: #dcc9f4;
@@ -11,21 +7,12 @@
   margin-bottom: 20px;
 }
 
-/* p要素（class名「top-child」）に対する装飾
-☑️横幅を親要素の20%になるようにします。
-☑️背景色を「#ffd9df」にします。
-☑️3つのp要素が横並びになるようにします。 */
 .top-child{
   display: inline-block;
   width: 20%;
   background-color: #ffd9df;
 }
 
-/* div要素（id名「middle」）に対する装飾
-☑️横幅を800pxにします。
-☑️高さを800pxにします。
-☑️上下に20pxの余白を入れて、画面の中央に配置します（id名topのdiv要素とmarginの相殺が起こりますが、一番上の図形と一番下の図形との上下間隔が20pxになるようにすればOKです）。
-☑️背景色を「#ffd9df 」にします。 */
 #middle {
   width: 800px;
   height: 800px;
@@ -34,16 +21,6 @@
   background-color: #ffd9df;
 }
 
-/* div要素（id名「middle-child01」「middle-child02」「middle-child03」）に対する共通の装飾
-☑️横幅を200pxにします。
-☑️高さを200pxにします。
-☑️背景色を「#87ceeb」にします。 */
-
-/* style.cssファイルにてpositionプロパティを利用し、以下画像のような配置になるようdiv要素（id名「middle」）とdiv要素（id名「middle-child01」「middle-child02」「middle-child03」）のCSSコードを記入してください。
-
-☑️div要素（id名「middle-child01」）は、親要素のdiv要素（id名「middle」）の上から100px、左から100px距離を取った場所に配置してください。
-☑️div要素（id名「middle-child02」）は、親要素のdiv要素（id名「middle」）の上から300px、左から300px距離を取った場所に配置してください。
-☑️div要素（id名「middle-child03」）は、親要素のdiv要素（id名「middle」）の上から500px、左から500px距離を取った場所に配置してください。 */
 #middle > .middle-child01 {
   width: 200px;
   height: 200px;
@@ -70,19 +47,6 @@
   top: 100px;
   left: 500px;
 }
-
-/* div要素（id名「bottom」）に対する装飾
-☑️横幅を800pxにします。
-☑️高さを300pxにします。
-☑️画面の中央に配置します。
-☑️背景色を「#87ceeb」にします。
-div要素（id名「bottom-child01」「bottom-child02」「bottom-child03」）に対する共通の装飾
-☑️横幅を400pxにします。
-☑️高さを100pxにします。
-☑️背景色を「#e5dcf0」にします。 */
-
-/* ☑️div要素（id名「bottom-child02」）は、本来の表示場所の左から200pxずらして配置してください。
-☑️div要素（id名「bottom-child03」）は、本来の表示場所の左から400pxずらして配置してください。 */
 
 #bottom {
   width: 800px;
